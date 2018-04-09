@@ -6,5 +6,4 @@
 > 优化axios的使用  
 > 路由可多层嵌套
 
-根据panjiachen的[vueAdmin-template](http://panjiachen.github.io/vueAdmin-template)修改而来
-
+根据panjiachen的[vueAdmin-template](https://github.com/PanJiaChen/vueAdmin-template)修改而来
