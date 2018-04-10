@@ -73,7 +73,6 @@ function getAxiosPromiseObject(apiObj) {
           obj[valChild[0]] = (data) => {
             if (typeof valChild[1] === 'object' && !Array.isArray(valChild[1])) {
               if (val[0] === 'get') {
-                console.log({ ...valChild[1].config, params: data })
                 return service.get(valChild[1].url, { ...valChild[1].config, params: data })
               }
               return service[val[0]](valChild[1].url || '', data, valChild[1].config || {})
