@@ -9,7 +9,15 @@ getAxiosPromiseObject会返回，以接口对象名命名的函数
 const api = {
   post: {
     login: '/user/login',
-    logout: '/user/logout'
+    logout: '/user/logout',
+    example: {
+      url: '/user/logout',
+      config: {
+        headers: {
+          'Content-Type': 'text/plain'
+        }
+      }
+    }
   },
   get: {
     getInfo: '/user/info'
